@@ -1,0 +1,190 @@
+.container{
+    width: 1200px;
+    height:1150px;
+    margin: 20px auto;
+}
+/* 左边菜单部分 */
+.left_menu{
+    width: 880px;
+    height: 100%;
+    float: left;
+}
+.left_menu_head{
+    width:100%;
+    height:45px;
+    border-bottom:1px solid #919191;
+}
+.left_menu_head>i{
+    font-size: 25px;
+    line-height: 60px;
+    color: #f9a200;
+}
+.left_menu_head>span{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.left_menu_body{
+    width: 100%;
+    height:auto;
+    margin-top: 30px;
+}
+.left_menu_body>ul{
+    display: flex;
+    justify-content:start;
+    flex-wrap: wrap;
+}
+.left_menu_body>ul>li{
+    width: 284px;
+    height: 337px;
+    border:1px solid #919191;
+    margin-bottom: 20px;
+    margin-right: 7px;
+}
+.left_menu_body>ul>li img{
+    width: 100%;
+    height:204px;
+}
+.left_menu_body>ul>li>span{
+   margin-left: 15px;
+    font-size: 15px;
+   line-height: 41px;
+   text-align: center;
+}
+.left_menu_body>ul>li>p{
+    margin-left: 15px;
+    font-size: 13px;
+    color:#919191;
+    line-height: 24px;
+   display: -webkit-box;
+   -webkit-box-orient: vertical;
+   -webkit-line-clamp:2;
+   overflow: hidden;
+}
+.icon{
+    width: 100%;
+    height:25px;
+    margin-top: 17px;
+    color: #919191;
+}
+.icon>i{
+    float:right;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.icon>i>span{
+    margin-left: 10px;
+    font-size:18px; 
+}
+.page{
+    width: 120px;
+    height:30px;
+    float:right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.page>span{
+    line-height: 30px;
+    font-size: 18px;
+}
+.page>.btn{
+    width:80px;
+    height:25px;
+   margin-top: 3px;
+   display: flex;
+   justify-content: space-between;
+
+}
+.page>.btn>button{
+    width: 30px;
+    height:100%;
+   line-height: 25px;
+   text-align: center;
+   border-radius: 6px;
+   font-size: 18px;
+   background: #ccc;
+   border:none;
+}
+/* 右边热门食谱 */
+.right_foot{
+    width: 228px;
+    height:100%;
+    float: right;
+}
+/* 广告 */
+.ad{
+    width:100%;
+    height:190px;
+    margin-top: 50px;
+}
+/* 热门菜谱 */
+.author-title{
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #dcdcdc;
+	color:#333333 ;
+	font-size: 18px;
+}
+.line{
+	height: 22px;
+	float: left;
+	width: 3px;
+	background:  #f6a200;
+	margin-right: 5px;
+}
+.hotMenu{
+	width: 100%;
+	height: 555px;
+	margin-top: 50px;
+}
+.hotMenu ul li{
+	width: 100%;
+	height: 104px;
+	border-bottom: 1px dashed #dcdcdc;
+}
+.hotMenu-img{
+	width: 68px;
+	height: 68px;
+	border-radius: 50%;
+	background: deeppink;
+    margin: 18px;
+	float: left;
+	overflow: hidden;
+}
+.hotMenu-img img{
+	width: 68px;
+	height: 68px;
+}
+.hotMenu-name{
+   line-height: 104px;
+}
+/* 热门食材 */
+.hotFoot{
+	width: 100%;
+	height: 210px;
+	margin-top: 50px;
+}
+.hotFoot-list{
+	width: 100%;
+	height: 160px;
+	margin-top: 20px;
+}
+.hotFoot-list ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+.hotFoot-list ul li{
+	width: 51px;
+	height: 30px;
+	border: 1px solid #dcdcdc;	
+}
+.hotFoot-list ul li:hover{
+	background: #f9a200;
+	border-color: #f9a200;
+}
+.hotFoot-list ul li a{
+	text-align: center;
+	line-height: 30px;
+	display: block;
+}

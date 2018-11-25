@@ -1,0 +1,256 @@
+
+/* banner */ 
+.banner{
+	width: 100%;
+	height: 370px;
+	background: pink; 
+}
+/* 中间 */
+.container{
+	width: 1200px;
+	margin: 0 auto;	
+}
+/* 精品菜谱 */
+.menu{
+	width:1200px;
+	height: 1154px;
+	margin-top: 30px;
+}
+.menu-title{
+	width: 100%;
+	height: 43px;
+}
+.menu-title-left{
+	float: left;
+	width: 357px;
+	height: 100%;
+	background: url('../img/icon/menu-title_bg.png') no-repeat;
+}
+.menu-title-left>h2{
+	font-weight: normal;
+	font-size: 23px;
+	color: #2d2d2d;
+	margin-left: 16px;
+	line-height: 60px;
+	float: left;
+}
+.menu-title-left>span{
+	display: block;
+	width:213px;
+	height: 20px;
+	float: right;
+	margin-top: 23px;
+	background: url("../img/icon/dec.png")no-repeat -7px -27px;
+}
+.menu-title-right{
+	height: 26px;
+	float: right;
+	margin-top: 17px;
+}
+.menu-title-right>ul>li{
+ float: left;
+  width: 62px;
+  height: 26px;
+  border-radius: 13px;
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  margin-right: 10px;
+}
+.active{
+	background: #f6aa00;
+}
+.active>a{
+	color: #fff;	
+}
+.menu-txt{
+	width: 100%;
+	height: 1025px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.menu-txt>li{
+	width: 284px;
+	height: 330px;	
+	overflow: hidden;
+	position: relative;
+	margin-top:15px;
+}
+.txt-top>img{
+	width: 100%;
+	height: 253px;
+}
+.txt-bottom{
+	width: 265px;
+	height:67px;
+	margin: 8px auto 0; 
+	transition: all .5s;
+
+}
+.txt-bottom>span{
+	font-size: 15px;
+	color: #2d2d2d;
+}
+.txt-comment{
+	width: 100%;
+	height: 16px;
+	margin-top: 5px;
+}
+.txt-star{
+	width: 100px;
+	height: 100%;
+	float: left;
+}
+.txt-collect{
+	float:right ;
+	height: 100%;
+    font-size: 14px;
+    color: #919191;
+}
+.txt-collect>span{
+	color: #f7a200;
+	margin-right: 8px;
+}
+.txt-hid{
+	width: 100%;
+	height: 81px;
+	 position: absolute;
+	top:334px;
+    left: 0;
+    transition: all .5s;
+    background: #eee;
+}
+.txt-hidT{
+	width: 260px;
+	height: 30px;
+	margin: 5px 0 ;
+}
+.txt-hidT>i{
+	font-size: 25px;
+	color: #f6a200;
+	margin:0  20px;
+}
+.menu-txt>li:hover .txt-hid {
+	transform: translateY(-81px);
+}
+.menu-txt>li:hover .txt-bottom {
+	transform: translateY(-81px);
+	    opacity: 0;
+}
+/* 时令蔬菜 */
+.vegetable{
+	height:350px;
+	width: 1200px;
+}
+.vegetable .menu-title-left>span{
+	background: url("../img/icon/dec.png") no-repeat -15px -57px;
+}
+.vegetable-txt{
+	width: 100%;
+	height: 230px;
+	margin-top: 35px;
+	display: flex;
+	justify-content: space-between;
+}
+.vegetable-txt>li{
+	width: 164px;
+	height: 230px;
+}
+.veg_img>img{
+   width:100%;
+   height: 150px;
+}
+.vegetable-txt>li h3{
+	font-weight: normal;
+	font-size: 19px;
+	color: #2d2d2d;
+	text-align: center;
+	margin-top: 10px;
+}
+.vegetable-txt>li p{
+	width: 155px;
+	height: 40px;
+	font-size: 12px;
+	color: #919191;
+	line-height: 20px;
+	padding: 0 5px;
+	overflow: hidden;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+ }
+ .vegetable-txt>li:hover{
+	box-shadow: 0px 0px 10px 2px #cbcac8;
+}
+/* 健康新闻 */
+.health{
+	width: 1200px;
+	height: 500px;
+}
+.health-cont{
+	width: 990px;
+	height: 340px;
+	margin: 60px auto;
+}
+.health-cont>li{
+	width: 485px;
+	height: 160px;
+	float: left;
+	position: relative;
+}
+.health-cont>li:nth-child(odd){
+	margin: 0 20px 20px 0;
+}
+.health-pig>img{
+	width: 160px;
+	height: 160px;
+	float: left;
+}
+.health-txt{
+	width: 325px;
+	height: 160px;
+	float: left;
+}
+.health-txt>ul>li{
+	width: 100%;
+	height: 50px;
+	border-bottom: 1px solid #eee;
+	
+}
+.health-txt>ul>li>a>span{
+	line-height: 50px;
+    margin-left: 15px;
+    color: #666;
+}
+.health-txt>ul>li:hover{
+	font-weight: bold;
+	transform: scaleY(1.1);
+}
+.health-txt>ul>li>a>span:hover{
+	color:red;
+}
+.heal-title{
+	width: 76px;
+	height: 30px;
+	background: #60a531;
+	position: absolute;
+	top: -15px;
+	right: 8px;
+	font-size: 15px;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}
+.heal-title>img{
+	width: 6px;
+	height: 6px;
+	position: absolute;
+	top: 0px;
+	right: -6px;
+	display: block;
+}
+
+
+

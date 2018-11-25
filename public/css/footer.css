@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	outline: none;
+}
+body a{
+	color: #2d2d2d;
+	text-decoration: none;
+}
+body{
+	 background: url('../img/sign-bg.jpg'); 
+}
+/* 底部 */
+.footer{
+	width: 100%;
+	height: 112px;
+	/* background: #f3f3f3; */
+	padding: 35px 0 35px 500px;
+	box-sizing: border-box;
+	color: #2d2d2d;
+	font-size:14px;
+	clear: both;
+}
+.footer>ul>li>a{
+	float: left;
+	margin: 19px 20px 0 0;
+}
+.bottom{
+	width: 100%;
+	height: 50px;
+	background: #dddddd;
+}
+.bottom {
+	font-size: 15px;
+	text-align: center;
+	line-height: 50px;
+	color: #adadad;
+}
